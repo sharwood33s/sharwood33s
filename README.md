@@ -15,6 +15,11 @@ Building practical AI tools for workflow improvement.
 ### ローカルAI議事録作成ツール
 MLX-Whisper、pyannote.audio、LM Studioを用いて文字起こし、話者分離、要約を行うツールを開発
 マニュアル作成モードも搭載し、音声でマニュアル作成も可能
+- 初回のモデルロード時以外はオフラインで完結
+- 文字起こし：MLX-Whisper
+- 話者分離：pyannote.audio
+- 要約・議事録作成：LM Studio
+- GUIによる直感的操作
 
 ### サブスク管理アプリ
 Next.jsで開発したサブスクリプションの支出可視化ツール
@@ -23,6 +28,10 @@ Next.jsで開発したサブスクリプションの支出可視化ツール
 - 基本情報処理技術者試験
 - Python
 - Next.js
+- ローカルLLMの活用
+
+## 目標
+ソフトウェアで業務負荷を減らす、実用的なツール開発に取り組んでいます。
 
 <!--
 **sharwood33s/sharwood33s** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
