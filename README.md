@@ -1,4 +1,5 @@
-## こんにちは sharwood33sです。
+## 自己紹介
+こんにちは。sharwood33sです。
 Building practical AI tools for workflow improvement.
 地方公務員として福祉業務に従事しながら、業務改善やAI活用に関心を持ち、IT分野の学習をしています。
 将来的にはITへのキャリアチェンジを目指し、開発に取り組んでいます。
