@@ -15,12 +15,12 @@ Building practical AI tools for workflow improvement.
 ### ローカルAI議事録作成ツール
 福祉業務では他部署との連携を図るための会議が多くあり、その度に議事録の作成に追われていました。
 議事録作成を自動化し本来の業務に集中できるようにこのツールを作成しました。
-MLX-Whisper、pyannote.audio、LM Studioを用いて文字起こし、話者分離、要約を行うツールを開発
+MLX-Whisper(mac)faster-whisper(Windows)、pyannote.audio、LM Studioまたはollamaを用いて文字起こし、話者分離、要約を行うツールを開発
 マニュアル作成モードも搭載し、音声でマニュアル作成も可能
 - 初回のモデルロード時以外はオフラインで完結
 - 文字起こし：MLX-Whisper
-- 話者分離：pyannote.audio
-- 要約・議事録作成：LM Studio
+- 話者分離：pyannote-audio
+- 要約・議事録作成：LM Studio,ollama
 - GUIによる直感的操作
 
 ### 画像圧縮アプリ
