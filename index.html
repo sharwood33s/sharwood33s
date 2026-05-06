@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="sharwood33sのポートフォリオ。地方公務員として福祉業務に従事しながら、Python自動化、ローカルLLM、DX・業務改善に取り組んでいます。"
+      content="sharwood33sのポートフォリオ。福祉業務の現場課題を起点に、Python自動化、ローカルLLM、macOSアプリ、DX・業務改善の学習と制作に取り組んでいます。"
     />
+    <meta name="theme-color" content="#f7faf7" />
+    <meta property="og:title" content="sharwood33s | Portfolio" />
+    <meta
+      property="og:description"
+      content="現場の困りごとを、ローカルAIと自動化で使えるツールに変えるポートフォリオ。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sharwood33s.github.io/sharwood33s/" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/274947554?v=4" />
+    <meta name="twitter:card" content="summary" />
     <title>sharwood33s | Portfolio</title>
+    <link rel="canonical" href="https://sharwood33s.github.io/sharwood33s/" />
     <link rel="preconnect" href="https://avatars.githubusercontent.com" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "sharwood33s",
+        "url": "https://sharwood33s.github.io/sharwood33s/",
+        "sameAs": ["https://github.com/sharwood33s"],
+        "knowsAbout": ["Python automation", "Local LLM", "Speech recognition", "DX", "macOS app development"]
+      }
+    </script>
   </head>
   <body>
+    <a class="skip-link" href="#work">制作物へ移動</a>
+
     <header class="site-header">
       <a class="brand" href="#top" aria-label="sharwood33s portfolio top">
         <span class="brand-mark">s</span>
@@ -29,10 +52,12 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">Workflow Improvement / Local AI / Automation</p>
-          <h1 id="hero-title">現場の困りごとを、実用的なソフトウェアに変える。</h1>
+          <h1 id="hero-title">
+            <span>現場の困りごと</span><span>を、使える</span><span>ソフトウェアに</span><span>変える。</span>
+          </h1>
           <p class="hero-text">
-            地方公務員として福祉業務に従事しながら、業務改善やAI活用に関心を持ち、
-            Python自動化、ローカルLLM、デスクトップアプリ開発を学習しています。
+            地方公務員として福祉業務に従事しながら、会議録作成、画像圧縮、支出管理など、
+            身近な不便を起点に小さなツールを作っています。
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#work">制作物を見る</a>
@@ -40,30 +65,41 @@
               GitHubを開く
             </a>
           </div>
+          <ul class="hero-points" aria-label="主な関心領域">
+            <li>ローカルLLMと音声認識の実務活用</li>
+            <li>Pythonによる定型作業の自動化</li>
+            <li>Next.js / Swiftでの小規模アプリ開発</li>
+          </ul>
         </div>
+
         <aside class="profile-panel" aria-label="プロフィール概要">
-          <img
-            src="https://avatars.githubusercontent.com/u/274947554?v=4"
-            alt="sharwood33s GitHub avatar"
-            width="160"
-            height="160"
-          />
-          <div>
-            <p class="profile-name">sharwood33s</p>
-            <p class="profile-location">Japan</p>
+          <div class="profile-head">
+            <img
+              src="https://avatars.githubusercontent.com/u/274947554?v=4"
+              alt="sharwood33s GitHub avatar"
+              width="160"
+              height="160"
+            />
+            <div>
+              <p class="profile-name">sharwood33s</p>
+              <p class="profile-location">Japan</p>
+            </div>
           </div>
+          <p class="profile-summary">
+            福祉業務の現場感をもとに、業務負荷を減らすローカルAIツールとデスクトップアプリを学習・制作中。
+          </p>
           <dl class="stats">
             <div>
               <dt>Public Repos</dt>
               <dd>4</dd>
             </div>
             <div>
-              <dt>Focus</dt>
-              <dd>DX / AI</dd>
+              <dt>Latest Update</dt>
+              <dd>2026.05</dd>
             </div>
             <div>
-              <dt>Learning</dt>
-              <dd>Python / Next.js</dd>
+              <dt>Main Stack</dt>
+              <dd>Python / TS / Swift</dd>
             </div>
           </dl>
         </aside>
@@ -74,37 +110,51 @@
           <p class="section-kicker">About</p>
           <h2 id="about-title">福祉業務の現場から、使えるツールを作る。</h2>
         </div>
-        <p>
-          会議録作成、画像圧縮、サブスクリプション管理など、日々の負担や不便を起点に開発しています。
-          将来的なIT分野へのキャリアチェンジを目指し、AIコーディングツールも活用しながら、
-          小さく動くものを積み上げています。
-        </p>
+        <div class="intro-copy">
+          <p>
+            会議録作成や画像サイズ調整のような、日々の小さな手間を開発テーマにしています。
+            AIコーディングツールも活用しながら、まず動くものを作り、実務に寄せて改善する進め方を大切にしています。
+          </p>
+          <div class="approach-list" aria-label="制作で大切にしていること">
+            <span>現場課題から始める</span>
+            <span>ローカルで完結させる</span>
+            <span>小さく試して改善する</span>
+          </div>
+        </div>
       </section>
 
       <section class="section" id="work" aria-labelledby="work-title">
         <div class="section-heading">
           <p class="section-kicker">Projects</p>
           <h2 id="work-title">公開リポジトリ</h2>
+          <p>
+            課題、実装、今後の改善が見えるように、主要プロジェクトを中心に整理しました。
+          </p>
         </div>
+
         <div class="project-grid">
           <article class="project-card featured">
             <div class="project-topline">
               <span class="tag python">Python</span>
-              <span class="repo-meta">Local AI</span>
+              <span class="repo-meta">Local AI / Meeting Notes</span>
             </div>
             <h3>Local_AI_Meetingtool</h3>
             <p>
-              ローカル文字起こし・話者分離・要約アプリ。
-              MLX-Whisper(mac)faster-whisper(Windows)、pyannote-audio、LM Studioを使い、会議録作成の負担軽減を目指しています。
+              音声・動画ファイルから文字起こし、話者分離、要約、議事録作成までを行うローカルAIツールです。
+              会議録作成の負担を減らし、本来の業務に集中する時間を増やすことを目指しています。
             </p>
             <ul class="feature-list">
-              <li>日本語音声・動画の文字起こし</li>
-              <li>話者分離とローカルLLMによる要約</li>
-              <li>テキスト形式・Word形式で保存</li>
+              <li>MLX-Whisper(mac) / faster-whisper(Windows) による文字起こし</li>
+              <li>pyannote.audio による話者分離</li>
+              <li>LM Studio / Ollama を使った要約・議事録作成</li>
+              <li>テキスト形式・Word形式での保存とマニュアル作成モード</li>
             </ul>
-            <a class="text-link" href="https://github.com/sharwood33s/Local_AI_Meetingtool" target="_blank" rel="noreferrer">
-              Repository
-            </a>
+            <div class="project-footer">
+              <span>Updated 2026.05</span>
+              <a class="text-link" href="https://github.com/sharwood33s/Local_AI_Meetingtool" target="_blank" rel="noreferrer">
+                Repository
+              </a>
+            </div>
           </article>
 
           <article class="project-card">
@@ -114,11 +164,15 @@
             </div>
             <h3>ImageSqueezer</h3>
             <p>
-              macOSで動く画像リサイズ・圧縮アプリ。ドラッグ&ドロップで画像を選び、最大サイズ、形式、品質を指定して一括書き出しできます。
+              ホームページ等に載せる画像を、ドラッグ&ドロップでリサイズ・圧縮するmacOSアプリです。
+              アスペクト比、最大サイズ、形式、品質を指定して一括書き出しできます。
             </p>
-            <a class="text-link" href="https://github.com/sharwood33s/ImageSqueezer" target="_blank" rel="noreferrer">
-              Repository
-            </a>
+            <div class="project-footer">
+              <span>Image utility</span>
+              <a class="text-link" href="https://github.com/sharwood33s/ImageSqueezer" target="_blank" rel="noreferrer">
+                Repository
+              </a>
+            </div>
           </article>
 
           <article class="project-card">
@@ -128,25 +182,32 @@
             </div>
             <h3>SubscriptionTracker</h3>
             <p>
-              サブスクリプションの月額料金、カテゴリ、更新日、メモを管理し、毎月・年間の支出を確認できるmacOSネイティブ管理アプリ。
+              サブスクリプションの月額料金、カテゴリ、更新日、メモを管理し、毎月・年間の支出を見える化するmacOSネイティブ管理アプリです。
             </p>
-            <a class="text-link" href="https://github.com/sharwood33s/SubscriptionTracker" target="_blank" rel="noreferrer">
-              Repository
-            </a>
+            <div class="project-footer">
+              <span>Expense visibility</span>
+              <a class="text-link" href="https://github.com/sharwood33s/SubscriptionTracker" target="_blank" rel="noreferrer">
+                Repository
+              </a>
+            </div>
           </article>
 
           <article class="project-card">
             <div class="project-topline">
               <span class="tag html">HTML</span>
-              <span class="repo-meta">Profile</span>
+              <span class="repo-meta">Profile / Pages</span>
             </div>
             <h3>sharwood33s</h3>
             <p>
-              GitHubプロフィール用README。自己紹介、興味分野、主な開発、学習中の技術、今後の目標をまとめています。
+              GitHubプロフィールREADMEと、このポートフォリオサイトを管理するリポジトリです。
+              学習中の技術、制作物、今後の目標を継続的に更新しています。
             </p>
-            <a class="text-link" href="https://github.com/sharwood33s/sharwood33s" target="_blank" rel="noreferrer">
-              Repository
-            </a>
+            <div class="project-footer">
+              <span>Portfolio</span>
+              <a class="text-link" href="https://github.com/sharwood33s/sharwood33s" target="_blank" rel="noreferrer">
+                Repository
+              </a>
+            </div>
           </article>
         </div>
       </section>
@@ -158,22 +219,39 @@
         </div>
         <div class="skill-layout">
           <div class="skill-block">
+            <span class="skill-index">01</span>
             <h3>Automation</h3>
             <p>Pythonによる定型作業の自動化、データ整理、ローカル環境で完結するツール作成。</p>
           </div>
           <div class="skill-block">
+            <span class="skill-index">02</span>
             <h3>Local AI</h3>
             <p>ローカルLLM、音声認識、文字起こし、要約、AIワークフローの実務活用。</p>
           </div>
           <div class="skill-block">
+            <span class="skill-index">03</span>
             <h3>App Development</h3>
             <p>Next.js、React、TypeScript、Swiftを使った小規模アプリケーション開発。</p>
           </div>
           <div class="skill-block">
+            <span class="skill-index">04</span>
             <h3>DX</h3>
             <p>福祉業務の現場感をもとに、業務負荷を減らす仕組みづくりを探求。</p>
           </div>
         </div>
+      </section>
+
+      <section class="now" aria-labelledby="now-title">
+        <div>
+          <p class="section-kicker">Now</p>
+          <h2 id="now-title">学習中のこと</h2>
+        </div>
+        <ul>
+          <li>基本情報処理技術者試験</li>
+          <li>PythonとGUIアプリ開発</li>
+          <li>Next.js / React / TypeScript</li>
+          <li>ローカルLLMを使った業務改善ワークフロー</li>
+        </ul>
       </section>
 
       <section class="closing" aria-labelledby="closing-title">
@@ -183,11 +261,15 @@
           学習中だからこそ、目の前の課題から逃げずに小さな改善を形にする。
           その積み重ねで、実務に効く開発力を育てています。
         </p>
+        <a class="button primary" href="https://github.com/sharwood33s" target="_blank" rel="noreferrer">
+          GitHubプロフィールへ
+        </a>
       </section>
     </main>
 
     <footer class="site-footer">
       <span>© 2026 sharwood33s</span>
+      <span>Last updated 2026.05.06</span>
       <a href="https://github.com/sharwood33s" target="_blank" rel="noreferrer">github.com/sharwood33s</a>
     </footer>
 
